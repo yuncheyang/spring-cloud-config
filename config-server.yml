@@ -1,0 +1,28 @@
+#spring的配置
+spring:
+  application:
+    name: spring-cloud-dev
+    profiles: dev
+
+#eureka的配置
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8848/eureka/
+
+---
+#spring的配置
+spring:
+  application:
+    name: spring-cloud-dev
+    profiles: test
+
+#eureka的配置
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8848/eureka/
