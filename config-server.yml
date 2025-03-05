@@ -1,3 +1,7 @@
+spring:
+  profiles:
+    active: dev
+---
 #spring的配置
 spring:
   application:
@@ -16,7 +20,7 @@ eureka:
 #spring的配置
 spring:
   application:
-    name: spring-cloud-dev
+    name: spring-cloud-test
     profiles: test
 
 #eureka的配置
