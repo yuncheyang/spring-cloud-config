@@ -6,9 +6,10 @@ server:
   port: 1111
 #spring的配置
 spring:
+  profiles: dev
   application:
     name: spring-cloud-dev
-    profiles: dev
+
 
 #eureka的配置
 eureka:
@@ -23,9 +24,10 @@ server:
   port: 2222
 #spring的配置
 spring:
+  profiles: test
   application:
     name: spring-cloud-test
-    profiles: test
+    
 
 #eureka的配置
 eureka:
